@@ -1,0 +1,213 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+<script src="js/funcion.js" type="text/JavaScript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>Mi App</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#galeria">Galeria</a></li>
+            <li><a href="#tur">Lugares recomendados</a></li>
+			<li><a href="#map">Mapas</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+         <ul>
+          <li>
+           <a href="#page" data-transition ="slide" data-icon="home">
+           Inicio
+           </a>
+           </li>
+           <li>
+           <a href="#Ayuda" data-transition ="slide" data-icon="info">
+           Ayuda
+           </a>
+           </li>
+           <li>
+           <a href="#Contacto" data-transition ="slide" data-icon="alert">
+           Contacto
+           </a>
+           </li>
+           </ul>
+        </div>
+	</div>
+</div>
+
+<div data-role="page" id="galeria">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">BACK
+    </a>
+		<h1>Galeria</h1>
+	</div>
+	<div data-role="content">	
+		<p>Desliza sobre la imagen para saber el precio del viaje.</p>
+<p style="border:1px solid black;height:200px;width:200px;"><img src="imagenes/imagen1.jpg" width="200px" height="200px" ></p>
+<p><span style="color:red"></span></p>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+        
+       
+        
+         <ul>
+          <li>
+           <a href="#page" data-transition ="slide" data-icon="home">
+           Inicio
+           </a>
+           </li>
+           <li>
+           <a href="#Ayuda" data-transition ="slide" data-icon="info">
+           Ayuda
+           </a>
+           </li>
+           <li>
+           <a href="#Contacto" data-transition ="slide" data-icon="alert">
+           Contacto
+           </a>
+           </li>
+           </ul>
+        </div>
+	</div>
+</div>
+
+<div data-role="page" id="tur">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">BACK
+    </a>
+		<h1><marquee>Lugares recomendados</marquee></h1>
+	</div>
+	<div data-role="content">	
+		Contenido	
+        	<p>sosten sobre el cuadro de texto.</p>
+<p style="border:1px solid black;height:100px;width:100px;"></p>
+<p><span style="color:green"></span></p>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+         <ul>
+          <li>
+           <a href="#page" data-transition ="slide" data-icon="home">
+           Inicio
+           </a>
+           </li>
+           <li>
+           <a href="#Ayuda" data-transition ="slide" data-icon="info">
+           Ayuda
+           </a>
+           </li>
+           <li>
+           <a href="#Contacto" data-transition ="slide" data-icon="alert">
+           Contacto
+           </a>
+           </li>
+           </ul>
+        </div>
+	</div>
+</div>
+
+<div data-role="page" id="map">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">BACK
+    </a>
+		<h1>Mapas</h1>
+	</div>
+	<div data-role="content">	
+		Contenido		
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+         <ul>
+          <li>
+           <a href="#page" data-transition ="slide" data-icon="home">
+           Inicio
+           </a>
+           </li>
+           <li>
+           <a href="#Ayuda" data-transition ="slide" data-icon="info">
+           Ayuda
+           </a>
+           </li>
+           <li>
+           <a href="#Contacto" data-transition ="slide" data-icon="alert">
+           Contacto
+           </a>
+           </li>
+           </ul>
+        </div>
+	</div>
+</div>
+
+<div data-role="page" id="Ayuda">
+  <div data-role="header">
+    <h1>pajina de ayuda</h1>
+  </div>
+  <div data-role="content">Contenido</div>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar" data-iconpos="top">
+         <ul>
+          <li>
+           <a href="#page" data-transition ="slide" data-icon="home">
+           Inicio
+           </a>
+           </li>
+           <li>
+           <a href="#Ayuda" data-transition ="slide" data-icon="info">
+           Ayuda
+           </a>
+           </li>
+           <li>
+           <a href="#Contacto" data-transition ="slide" data-icon="alert">
+           Contacto
+           </a>
+           </li>
+           </ul>
+        </div>
+  </div>
+</div>
+
+
+
+<div data-role="page" id="Contacto">
+  <div data-role="header">
+    <h1>pajina de contacto</h1>
+  </div>
+  <div data-role="content">Contenido</div>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar" data-iconpos="top">
+         <ul>
+          <li>
+           <a href="#page" data-transition ="slide" data-icon="home">
+           Inicio
+           </a>
+           </li>
+           <li>
+           <a href="#Ayuda" data-transition ="slide" data-icon="info">
+           Ayuda
+           </a>
+           </li>
+           <li>
+           <a href="#Contacto" data-transition ="slide" data-icon="alert">
+           Contacto
+           </a>
+           </li>
+           </ul>
+        </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+</body>
+</html>
